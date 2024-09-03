@@ -20,7 +20,7 @@
 }
 body{
     background-color: var(--blist-main);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:roboto;
 }
 #logo{
     display: inline-block;
@@ -29,6 +29,7 @@ body{
 #Title{
     display: inline-block;
     inline-size: auto;
+    vertical-align: middle;
 }
 #app_header{
     background-color: var(--blist-white);
