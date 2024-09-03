@@ -1,0 +1,34 @@
+:root{
+    --blist-main:f6f8f9;
+    --blist-white:E8E9EA;
+    --blist-blue:47adf1;
+    --blist-purple:a27be6;
+    --blist-salvia:64c0a9;
+    --blist-orange:f29e33;
+    --blist-palered:d863a1;
+    --blist-green:b0c926;
+
+
+
+
+
+    
+}
+body{
+
+}
+#logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+#Title{
+    display: inline-block;
+    inline-size: auto;
+}
+#app_header{
+    background-color: var(--blist-white);
+}
+
+#app_main{
+    background-color:var(--blist-main);
+}
