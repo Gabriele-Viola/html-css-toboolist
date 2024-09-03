@@ -1,12 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 :root{
-    --blist-main:f6f8f9;
-    --blist-white:E8E9EA;
-    --blist-blue:47adf1;
-    --blist-purple:a27be6;
-    --blist-salvia:64c0a9;
-    --blist-orange:f29e33;
-    --blist-palered:d863a1;
-    --blist-green:b0c926;
+    --blist-main:#f6f8f9;
+    --blist-white:#ffffff;
+    --blist-blue:#47adf1;
+    --blist-purple:#a27be6;
+    --blist-salvia:#64c0a9;
+    --blist-orange:#f29e33;
+    --blist-palered:#d863a1;
+    --blist-green:#b0c926;
 
 
 
@@ -14,7 +18,7 @@
 
     
 }
-body{
+body{background-color: var(--blist-main);
 
 }
 #logo{
@@ -27,8 +31,21 @@ body{
 }
 #app_header{
     background-color: var(--blist-white);
+
 }
 
 #app_main{
-    background-color:var(--blist-main);
+    margin-top: 2rem;
+}
+.contein{
+    background-color: var(--blist-white);
+    width: 80%;
+    margin: auto;
+}
+
+
+#header-list{
+    background-color: blue;
+    padding: 1rem 0 0.5rem 2rem;
+    border-radius: 1rem 1rem 0 0;
 }
