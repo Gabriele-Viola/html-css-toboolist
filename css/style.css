@@ -32,6 +32,7 @@ body{
 }
 #app_header{
     background-color: var(--blist-white);
+    padding: 0.5rem;
 
 }
 
